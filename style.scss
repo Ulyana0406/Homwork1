@@ -14,7 +14,9 @@ body {
     height: 1024px;
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
-    background-position:;
+    background-size: cover;
+    background-position: center;
+
     &__heading {
         padding-top: 217px;
         padding-bottom: 32px;
@@ -77,13 +79,13 @@ body {
     flex-direction: column-reverse;
 }
 .gameitem_1 {
-    background-image: url(img/game1.jpg);
+    background-image: url(img/game1.png);
 }
 .gameitem_2 {
-    background-image: url(img/game2.jpg);
+    background-image: url(img/game2.png);
 }
 .gameitem_3 {
-    background-image: url(img/game3.jpg);
+    background-image: url(img/game3.png);
 }
 .gameitem_text {
     padding-left: 32px;

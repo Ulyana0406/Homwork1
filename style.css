@@ -17,6 +17,7 @@ body {
   height: 1024px;
   background-image: url(img/background.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 .top__heading {
@@ -71,7 +72,7 @@ body {
   gap: 32px;
 }
 
-.game__item {
+.gameitem {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -83,19 +84,19 @@ body {
   flex-direction: column-reverse;
 }
 
-.game__item_1 {
-  background-image: url(img/game1.jpg);
+.gameitem_1 {
+  background-image: url(img/game1.png);
 }
 
-.game__item_2 {
-  background-image: url(img/game2.jpg);
+.gameitem_2 {
+  background-image: url(img/game2.png);
 }
 
-.game__item_3 {
-  background-image: url(img/game3.jpg);
+.gameitem_3 {
+  background-image: url(img/game3.png);
 }
 
-.game__item_text {
+.gameitem_text {
   padding-left: 32px;
   padding-bottom: 32px;
 }/*# sourceMappingURL=style.css.map */
