@@ -10,4 +10,21 @@
     .gameitem {
     width: 343px;
     }
+
+    .top__heading {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        justify-content: center;
+        }
+    .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        }
     }
+    
