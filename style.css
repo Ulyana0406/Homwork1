@@ -36,7 +36,6 @@ body {
   font-size: 18px;
   line-height: 32px;
   color: #FFFFFF;
-  text-align: center;
 }
 .top__text span {
   width: 481px;
@@ -127,5 +126,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .top__text {
+    text-align: center;
+  }
+  .gameitem {
+    width: 343px;
+    border-radius: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
