@@ -99,4 +99,6 @@ body {
 .gameitem_text {
   padding-left: 32px;
   padding-bottom: 32px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@import 'mobile';

@@ -1,0 +1,13 @@
+@media ( max-width: 767px) {
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+.game{
+    display: grid;
+    justify-content: center;
+}
+.gameitem{
+    width: 343px;
+}
+}
