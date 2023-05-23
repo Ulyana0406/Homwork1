@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: black;
+    background-color: rgba(0, 9, 21, 1);
 }
 .center {
     padding-left: calc(50% - 600px);
@@ -81,10 +81,10 @@ body {
     height: 300px;
     display: flex;
     flex-direction: column-reverse;
-    transition: all 0.3s;
+    border-radius: 16px;
+    transition: box-shadow 0.3s;
     &:hover {
-        border: 3px solid #44D2FF;
-        border-radius: 16px;
+        box-shadow: 0px 0px 7px 6px rgba(68, 210, 255, 0.31);
         }
        }
     
