@@ -5,11 +5,11 @@ a= 20;
 alert(a);
 
 //2
-let iphoneYear= 2007;
-alert(iphoneYear);
+let FirstiphoneYear= 2007;
+alert(FirstiphoneYear);
 //3
-let creater="Брендан Айком";
-alert(creater);
+let iphonecreater="Брендан Айком";
+alert(iphonecreater);
 //4
 let i=10;
 let b=2;
