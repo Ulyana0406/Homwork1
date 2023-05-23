@@ -57,3 +57,5 @@ const user = {
 //10
 const username = prompt("Как Вас зовут?");
 alert(`Привет, ${username}!`);
+
+
