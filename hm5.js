@@ -22,10 +22,15 @@ function numberchetnechet(n) {
 
 numberchetnechet(6)
 //3.1
-function numbersquare() {
-    let n= +prompt("Введите число")
-    console.log(n**2)
+function numbersquare(num) { // принимает параметр
+
+    console.log(num**2)
+
 };
+
+let n= +prompt("Введите число")
+
+numbersquare(n)
 
 //4
 
