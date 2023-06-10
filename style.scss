@@ -120,6 +120,14 @@ body {
     line-height: 32px;
     color: #FFFFFF;
 }
-
-
+.words{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 800px;
+}
+.wordgame_img{
+    display: grid;
+    align-items: center;
+    padding-right: 135px;  
+}
 @import 'mob';

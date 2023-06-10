@@ -129,6 +129,18 @@ body {
   color: #FFFFFF;
 }
 
+.words {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 800px;
+}
+
+.wordgame_img {
+  display: grid;
+  align-items: center;
+  padding-right: 135px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -189,5 +201,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .words {
+    display: flex;
+    flex-direction: column;
+  }
+  .wordgame_img {
+    padding-right: 0%;
+    justify-content: center;
+    margin-top: 77px;
   }
 }/*# sourceMappingURL=style.css.map */
